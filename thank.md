@@ -19,6 +19,17 @@ const creditsData = ref([
     link: 'https://napneko.github.io/#',
     linkText: '访问官网'
   },
+
+  {
+    name: 'Carson-Flute 筱笙笙',
+    image: '/assets/images/thank/Carson-Flute.png',
+    description: [
+      '感谢他为文档提供内容以及建议',
+    ],
+    link: 'https://github.com/Carson-Flute',
+    linkText: '访问GitHub个人主页'
+  },
+
 ]);
 
 const currentIndex = ref(0);
