@@ -21,7 +21,7 @@ const creditsData = ref([
   },
 
   {
-    name: 'Carson-Flute 筱笙笙',
+    name: 'Carson-Flute筱笙笙',
     image: '/assets/images/thank/Carson-Flute.png',
     description: [
       '感谢他为文档提供内容以及建议',
@@ -119,6 +119,7 @@ function getCardStyle(index) {
   font-weight: 600;
   border: none;
   color: var(--vp-c-brand-1);
+  line-height: 1.2;
 }
 .card-content ul {
   list-style-type: '✓ ';
