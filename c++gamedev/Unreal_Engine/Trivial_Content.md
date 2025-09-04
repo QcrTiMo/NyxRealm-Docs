@@ -20,4 +20,14 @@
 
 ### **On Restart player：**
 
-调用该事件来让玩家重生，与SpawnDefaultPawnAtTransform类似，玩家可以在特定的变换或预先指定的位置重生。
+调用该事件来让玩家重生，与SpawnDefaultPawnAtTransform类似，玩家可以在特定的变换或预先指定的位置重生
+
+## 事件图表
+
+### **Event Blueprint Initialize Animation：**
+
+用处初始化动画
+
+### **Event Blueprint Update Animation：**
+
+每帧执行一次，允许开发人员执行计算并且更新其值
